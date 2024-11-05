@@ -1,6 +1,6 @@
 ## Overview
 
-![Overview](overview.jpg)
+<img src="overview.jpg" alt="Overview" width="400"/>
 
 This repository contains the code and resources related to our paper titled **"Oxygen Uptake Estimation During Cardiopulmonary Exercise Testing Using Temporal Fusion Networks."** 
 
