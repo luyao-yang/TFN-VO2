@@ -1,0 +1,22 @@
+{
+    "model_base":0,
+    "block":"LSTM",
+    "switch_epoch":25,    
+    "epochs": 50,
+    "quantiles": [0.1, 0.5, 0.9],
+    "batch_size": 64,
+    "dropout": 0.1,
+    "hidden_layer_size": 8,
+    "decoder_steps": 200,
+    "num_lstm_layers": 2,
+    "embedding_dim": 16,
+    "num_attention_heads": 2,
+    "learning_rate": 0.01,
+    "static_covariates": ["Status","Sex","Age","Height","Weight"],
+    "category_counts": {"WorkLoad": 30, "Sex":2,"Status":2,"Age":60, "Height":80, "Weight":120},
+    "time_dependent_categorical": ["WorkLoad"],
+    "time_dependent_continuous": ["HR","HRR","VT","BF"],
+    "known_time_dependent": ["WorkLoad"],
+    "observed_time_dependent": ["HR","HRR","VT","BF","WorkLoad"]
+}
+ 
