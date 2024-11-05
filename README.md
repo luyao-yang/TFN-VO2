@@ -1,8 +1,8 @@
 ## Overview
 
-<div style="text-align: center;">
+<p align="center">
     <img src="overview.jpg" alt="Overview" width="400"/>
-</div>
+</p>
 
 This repository contains the code and resources related to our paper titled **"Oxygen Uptake Estimation During Cardiopulmonary Exercise Testing Using Temporal Fusion Networks."** 
 
